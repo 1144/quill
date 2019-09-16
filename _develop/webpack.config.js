@@ -97,7 +97,9 @@ const tsRules = {
 };
 
 const baseConfig = {
-  mode: 'development',
+  // mode: 'development',
+  mode: 'production',
+  // devtool: 'cheap-source-map',
   context: path.resolve(__dirname, '..'),
   entry: {
     'quill.js': ['./quill.js'],
